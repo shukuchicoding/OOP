@@ -19,6 +19,7 @@ public class GameWindow extends JFrame{
 	}
 	
 	public void startGame() {
+		System.out.print("test");
 		setVisible(true);
 		gameScreen.startGame();
 	}
