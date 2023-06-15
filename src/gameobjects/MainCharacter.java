@@ -46,6 +46,7 @@ public class MainCharacter {
 		rectBound = new Rectangle();
 		normalRunAnim = new Animation(90);
 		normalRunAnim.addFrame(Resource.getResourceImage("data/main-character1.png"));
+//		normalRunAnim.addFrame(Resource.getResourceImage("data/chicken_pixel.jpg"));
 		normalRunAnim.addFrame(Resource.getResourceImage("data/main-character2.png"));
 		jumping = Resource.getResourceImage("data/main-character3.png");
 		downRunAnim = new Animation(90);
